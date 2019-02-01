@@ -1,19 +1,66 @@
 {
   "name": "eslint-config-healthier",
+  "description": "An opinionated code linter – a friendly companion to prettier",
   "version": "0.0.0",
-  "description": "Eslint config for Healthier linter",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Karolis Narkevicius",
+    "url": "http://twitter.com/KidkArolis"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KidkArolis/eslint-config-healthier.git"
-  },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/KidkArolis/eslint-config-healthier/issues"
   },
-  "homepage": "https://github.com/KidkArolis/eslint-config-healthier#readme"
+  "dependencies": {
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-jsx": "^6.0.2",
+    "eslint-plugin-healthier": "github:KidkArolis/eslint-plugin-healthier"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "prettier": "^1.16.3",
+    "tape": "^4.9.2"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "homepage": "https://github.com/KidkArolis/eslint-config-healthier",
+  "keywords": [
+    "JavaScript Standard Style",
+    "bikeshed",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "standard",
+    "standard style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify",
+    "prettier",
+    "format",
+    "formatter"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KidkArolis/eslint-config-healthier.git"
+  },
+  "scripts": {
+    "test": "prettier --check '**/*.{js,json}' && tape test/*.js",
+    "format": "prettier --write '**/*.{js,json}'"
+  }
 }
