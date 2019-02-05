@@ -18,6 +18,7 @@
   },
   "devDependencies": {
     "eslint": "^5.13.0",
+    "np": "^4.0.2",
     "prettier": "^1.16.3",
     "tape": "^4.9.2"
   },
