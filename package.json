@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-healthier",
   "description": "Eslint config for Healthier, an opinionated code linter and a friendly companion to prettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Karolis Narkevicius",
     "url": "http://twitter.com/KidkArolis"
