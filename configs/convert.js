@@ -16,5 +16,14 @@ module.exports = config => {
     return acc
   }, {})
 
+  // delete config.extends, because
+  // only standard-react extends standard-jsx
+  // but we are already extending both of them
+  // if we don't do this, then eslint will
+  // add standard-jsx on top of everything
+  // healthier config extends and do that
+  // without the healthier/* rule renaming
+  delete config.extends
+
   return config
 }
