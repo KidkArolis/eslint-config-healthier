@@ -1,3 +1,8 @@
+### Version 3.0.0 (2019-08-20)
+
+- Upgrade to `standard@14` (previously `standard@12`)
+- Upgrade all dependencies
+
 ### Version 2.0.0 (2019-02-20)
 
 - Add `rules-of-hooks` rule from `eslint-plugin-react-hooks` as part of `healthier/react`
