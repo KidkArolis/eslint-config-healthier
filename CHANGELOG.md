@@ -1,6 +1,6 @@
-### Version 3.0.01(2019-09-05)
+### Version 3.0.2 (2019-09-05)
 
-- Detect version of React correctly
+- Detect version of React correctly.
 
 ### Version 3.0.0 (2019-08-20)
 
