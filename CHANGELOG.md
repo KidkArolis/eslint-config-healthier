@@ -1,3 +1,7 @@
+### Version 3.0.01(2019-09-05)
+
+- Detect version of React correctly
+
 ### Version 3.0.0 (2019-08-20)
 
 - Upgrade to `standard@14` (previously `standard@12`)

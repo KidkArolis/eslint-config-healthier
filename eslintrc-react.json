@@ -1,4 +1,12 @@
 {
   "extends": ["./configs/standard-react.js", "./configs/react-hooks.js"],
-  "plugins": ["healthier"]
+  "plugins": ["healthier"],
+
+  // workaround the hardcoded version in eslint-config-standard-react
+  // remove if this gets merged: https://github.com/standard/eslint-config-standard-react/pull/61
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }
