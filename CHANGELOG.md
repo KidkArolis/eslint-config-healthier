@@ -1,3 +1,12 @@
+### Version 3.1.0 (2019-09-06)
+
+- Upgrade deps
+- Remove React settings now that upstream eslint-config-standard-react has been patched
+
+### Version 3.0.2 (2019-09-05)
+
+- Detect version of React correctly.
+
 ### Version 3.0.2 (2019-09-05)
 
 - Detect version of React correctly.

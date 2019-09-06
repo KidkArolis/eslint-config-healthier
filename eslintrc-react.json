@@ -1,9 +1,4 @@
 {
   "extends": ["./configs/standard-react.js", "./configs/react-hooks.js"],
-  "plugins": ["healthier"],
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
-  }
+  "plugins": ["healthier"]
 }
