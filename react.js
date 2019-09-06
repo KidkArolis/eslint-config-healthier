@@ -1,1 +1,1 @@
-module.exports = require('./eslintrc-react.json')
+module.exports = require('./eslintrc-react')

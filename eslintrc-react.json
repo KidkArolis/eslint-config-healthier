@@ -1,4 +1,0 @@
-{
-  "extends": ["./configs/standard-react.js", "./configs/react-hooks.js"],
-  "plugins": ["healthier"]
-}

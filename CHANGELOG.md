@@ -1,3 +1,7 @@
+### Version 3.2.0 (2019-09-06)
+
+- Align react rules to match exactly with `healthier` React rules
+
 ### Version 3.1.0 (2019-09-06)
 
 - Upgrade deps
