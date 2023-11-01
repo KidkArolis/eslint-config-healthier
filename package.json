@@ -10,20 +10,24 @@
     "url": "https://github.com/KidkArolis/eslint-config-healthier/issues"
   },
   "dependencies": {
-    "eslint-config-prettier": "^6.2.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-config-standard-jsx": "^8.1.0",
-    "eslint-config-standard-react": "^9.2.0",
-    "eslint-plugin-healthier": "^2.1.0"
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-config-standard-jsx": "^11.0.0",
+    "eslint-config-standard-react": "^13.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.2.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "eslint": "^6.3.0",
-    "np": "^5.0.3",
-    "prettier": "^1.18.2",
-    "tape": "^4.11.0"
+    "eslint": "^8.52.0",
+    "np": "^8.0.4",
+    "prettier": "^3.0.3",
+    "tape": "^5.7.2"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=14"
   },
   "homepage": "https://github.com/KidkArolis/eslint-config-healthier",
   "keywords": [

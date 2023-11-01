@@ -1,3 +1,10 @@
+### Version 4.0.0
+
+- Upgrade all dependencies
+- Remove custom react rules, just use standard-react rules (that now also include react-hooks)
+- Remove dependency on eslint-plugin-healthier
+- Stop converting the rule names to `healthier/*`, use original rule names
+
 ### Version 3.2.0 (2019-09-06)
 
 - Align react rules to match exactly with `healthier` React rules

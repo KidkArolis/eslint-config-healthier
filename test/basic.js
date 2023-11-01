@@ -1,7 +1,7 @@
 var config = require('../')
 var test = require('tape')
 
-test('test basic properties of config', function(t) {
+test('test basic properties of config', function (t) {
   t.ok(isObject(config.extends))
   t.ok(isObject(config.plugins))
   t.end()
