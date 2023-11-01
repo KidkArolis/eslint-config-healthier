@@ -21,28 +21,3 @@ And optionally, for extra rules for React:
   "extends": ["healthier", "healthier/react"]
 }
 ```
-
-## Configuring rules
-
-Healthier depends on the following plugins for extra rules:
-
-- eslint-plugin-standard
-- eslint-plugin-node
-- eslint-plugin-import
-- eslint-plugin-promise
-- eslint-plugin-react
-- eslint-plugin-react-hooks
-
-But to avoid having you to install all of these, it renames the prefix of all of the rules that these plugins provide.
-
-For example, if you want to turn off `react/prop-types` rule, you need to instead turn off `healthier/prop-types`. The same applies for all of the following rules:
-
-```
-
-standard/* -> healthier/*
-node/* -> healthier/*
-import/* -> healthier/*
-promise/* -> healthier/*
-react/* -> healthier/*
-react-hooks/* -> healthier/*
-```
